@@ -1,0 +1,40 @@
+@font-face {
+  font-display: swap; 
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/public-sans-v18-latin-100.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/public-sans-v18-latin-regular.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/public-sans-v18-latin-500.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/public-sans-v18-latin-600.woff2') format('woff2'); 
+}
+ body{
+    font-family: 'Public Sans', sans-serif;
+ }
+.containers{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header-btn{
+background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+
+}
