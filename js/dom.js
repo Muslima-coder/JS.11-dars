@@ -1,6 +1,6 @@
 let elHeader = document.createElement ("header")
 document.body.appendChild(elHeader)
-elHeader.className = "py-[22px]"
+elHeader.className = "py-[22px] sticky top-0 z-50 bg-white"
 elHeader.innerHTML = `
     <div class="containers sm:flex sm:justify-between items-center block">
             <div class="flex justify-between ">
@@ -13,7 +13,7 @@ elHeader.innerHTML = `
                 <a class="text-[14px] font-normal text-[rgba(149,151,165,1)] hover:text-[rgba(45,49,77,1)] duration-300" href="/">Blog</a>
                 <a class="text-[14px] font-normal text-[rgba(149,151,165,1)] hover:text-[rgba(45,49,77,1)] duration-300" href="/">Careers</a>
             </nav>
-            <button class="sm:flex font-medium hidden py-[8px] px-[35px] rounded-[22px]  header-btn text-white text-[14px] leading-[28px]">Request Invite</button>
+            <button class=" sm:flex font-medium hidden py-[8px] px-[35px] rounded-[22px]  header-btn text-white text-[14px] leading-[28px]">Request Invite</button>
         </div>
 `
 //Hero part
